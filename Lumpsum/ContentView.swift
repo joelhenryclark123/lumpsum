@@ -55,6 +55,9 @@ struct ContentView: View {
         } onCommit: {
             self.saveContext()
         }
+        .padding()
+        .font(.system(size: 64))
+        .multilineTextAlignment(.center)
     }
     
     var expenseEnterRow: some View {
@@ -64,12 +67,16 @@ struct ContentView: View {
             } onCommit: {
                 newExpenseHandler()
             }
+            .frame(maxWidth: .infinity, alignment: .leading)
+            .padding(.trailing, 16)
             
             TextField("", value: $newExpenseAmount, formatter: NumberFormatter()) { (bool) in
                 return
             } onCommit: {
                 newExpenseHandler()
             }
+            .frame(maxWidth: 60, alignment: .trailing)
+            .multilineTextAlignment(.trailing)
         }
     }
     

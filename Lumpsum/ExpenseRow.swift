@@ -13,6 +13,9 @@ struct ExpenseRow: View {
     var body: some View {
         HStack {
             Text(expense.title!)
+                .frame(maxWidth: .infinity, alignment: .leading)
+                .padding(.trailing, 16)
+            
             Text(String(expense.cost))
         }
     }

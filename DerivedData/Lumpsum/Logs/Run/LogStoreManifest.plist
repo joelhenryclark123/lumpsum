@@ -244,6 +244,74 @@
 			<key>uniqueIdentifier</key>
 			<string>3E25D07D-A383-4BEB-9EC5-004D9AE78C9E</string>
 		</dict>
+		<key>40373899-6EDD-4EBD-9FD3-7FE6729147B7</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>40373899-6EDD-4EBD-9FD3-7FE6729147B7.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>Lumpsum project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>Lumpsum</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Run Lumpsum</string>
+			<key>timeStartedRecording</key>
+			<real>624567170.64357102</real>
+			<key>timeStoppedRecording</key>
+			<real>624567187.11280704</real>
+			<key>title</key>
+			<string>Run Lumpsum</string>
+			<key>uniqueIdentifier</key>
+			<string>40373899-6EDD-4EBD-9FD3-7FE6729147B7</string>
+		</dict>
+		<key>532442AD-A08F-4262-B5F9-D9DFA292D4A9</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>532442AD-A08F-4262-B5F9-D9DFA292D4A9.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>Lumpsum project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>Lumpsum</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Run Lumpsum</string>
+			<key>timeStartedRecording</key>
+			<real>624567188.62740397</real>
+			<key>timeStoppedRecording</key>
+			<real>624567284.925017</real>
+			<key>title</key>
+			<string>Run Lumpsum</string>
+			<key>uniqueIdentifier</key>
+			<string>532442AD-A08F-4262-B5F9-D9DFA292D4A9</string>
+		</dict>
 		<key>581A3D7B-FCD7-441C-8382-956D5EA3B9D3</key>
 		<dict>
 			<key>className</key>
@@ -277,6 +345,40 @@
 			<string>Run Lumpsum</string>
 			<key>uniqueIdentifier</key>
 			<string>581A3D7B-FCD7-441C-8382-956D5EA3B9D3</string>
+		</dict>
+		<key>6AAF6CB8-F35C-476B-9F69-A2836105B5A1</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>6AAF6CB8-F35C-476B-9F69-A2836105B5A1.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>Lumpsum project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>Lumpsum</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Run Lumpsum</string>
+			<key>timeStartedRecording</key>
+			<real>624566741.10399401</real>
+			<key>timeStoppedRecording</key>
+			<real>624567003.07035697</real>
+			<key>title</key>
+			<string>Run Lumpsum</string>
+			<key>uniqueIdentifier</key>
+			<string>6AAF6CB8-F35C-476B-9F69-A2836105B5A1</string>
 		</dict>
 		<key>6B9A6AF7-59DE-445C-A09D-C8D1253879F2</key>
 		<dict>
@@ -345,6 +447,40 @@
 			<string>Run Lumpsum</string>
 			<key>uniqueIdentifier</key>
 			<string>7897E128-5DFA-444E-B47D-378F93A15261</string>
+		</dict>
+		<key>7EA645ED-E379-4194-BCBE-7292D21E213B</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>7EA645ED-E379-4194-BCBE-7292D21E213B.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>Lumpsum project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>Lumpsum</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Run Lumpsum</string>
+			<key>timeStartedRecording</key>
+			<real>624566675.31458402</real>
+			<key>timeStoppedRecording</key>
+			<real>624566739.02397096</real>
+			<key>title</key>
+			<string>Run Lumpsum</string>
+			<key>uniqueIdentifier</key>
+			<string>7EA645ED-E379-4194-BCBE-7292D21E213B</string>
 		</dict>
 		<key>7F3325A0-B166-4AEB-92C8-157A8DCBAC73</key>
 		<dict>
@@ -447,6 +583,40 @@
 			<string>Run Lumpsum</string>
 			<key>uniqueIdentifier</key>
 			<string>81DBC5C9-21FD-4A41-B216-0BAF1362EDD1</string>
+		</dict>
+		<key>83E7E291-2017-4823-A49A-9539A09B63C7</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>83E7E291-2017-4823-A49A-9539A09B63C7.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>Lumpsum project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>Lumpsum</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Run Lumpsum</string>
+			<key>timeStartedRecording</key>
+			<real>624567287.86642694</real>
+			<key>timeStoppedRecording</key>
+			<real>624567311.01768899</real>
+			<key>title</key>
+			<string>Run Lumpsum</string>
+			<key>uniqueIdentifier</key>
+			<string>83E7E291-2017-4823-A49A-9539A09B63C7</string>
 		</dict>
 		<key>90FB2C27-A0D3-45EA-A7DC-EB8C85CC4011</key>
 		<dict>
@@ -652,6 +822,74 @@
 			<key>uniqueIdentifier</key>
 			<string>BBA31AF3-D1A9-4913-BE9D-338B3FC50726</string>
 		</dict>
+		<key>BD10E042-824B-478C-812C-079CDC9E06DD</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>BD10E042-824B-478C-812C-079CDC9E06DD.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>Lumpsum project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>Lumpsum</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Run Lumpsum</string>
+			<key>timeStartedRecording</key>
+			<real>624567004.96871305</real>
+			<key>timeStoppedRecording</key>
+			<real>624567081.521819</real>
+			<key>title</key>
+			<string>Run Lumpsum</string>
+			<key>uniqueIdentifier</key>
+			<string>BD10E042-824B-478C-812C-079CDC9E06DD</string>
+		</dict>
+		<key>C1FFFC87-D35B-4499-AD5B-19109D7672EE</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>C1FFFC87-D35B-4499-AD5B-19109D7672EE.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>Lumpsum project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>Lumpsum</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Run Lumpsum</string>
+			<key>timeStartedRecording</key>
+			<real>624567156.53952205</real>
+			<key>timeStoppedRecording</key>
+			<real>624567169.13472605</real>
+			<key>title</key>
+			<string>Run Lumpsum</string>
+			<key>uniqueIdentifier</key>
+			<string>C1FFFC87-D35B-4499-AD5B-19109D7672EE</string>
+		</dict>
 		<key>C42D440C-AD40-4AAE-B923-36EBDE66DC45</key>
 		<dict>
 			<key>className</key>
@@ -685,6 +923,40 @@
 			<string>Run Lumpsum</string>
 			<key>uniqueIdentifier</key>
 			<string>C42D440C-AD40-4AAE-B923-36EBDE66DC45</string>
+		</dict>
+		<key>EB628990-6108-48AD-BBDD-5528E9DE66B5</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>EB628990-6108-48AD-BBDD-5528E9DE66B5.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>Lumpsum project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>Lumpsum</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Run Lumpsum</string>
+			<key>timeStartedRecording</key>
+			<real>624567083.91102099</real>
+			<key>timeStoppedRecording</key>
+			<real>624567155.24738204</real>
+			<key>title</key>
+			<string>Run Lumpsum</string>
+			<key>uniqueIdentifier</key>
+			<string>EB628990-6108-48AD-BBDD-5528E9DE66B5</string>
 		</dict>
 	</dict>
 </dict>
