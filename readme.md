@@ -12,4 +12,6 @@ This is my first app with SwiftUI 2.0. I only used a few files, so it's pretty e
 Just check out the Lumpsum directory!
 
 ## Figma File
+Click on the menu in the top left corner to change pages:
+
 https://www.figma.com/file/xFjwtU5Q4SUtDyWcIcmd6E/Untitled?node-id=1%3A3
