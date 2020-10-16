@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E97855CA253A1E6E000549AC /* ExpenseRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = E97855C9253A1E6E000549AC /* ExpenseRow.swift */; };
 		E9903232253A030F007593F4 /* LumpsumApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9903231253A030F007593F4 /* LumpsumApp.swift */; };
 		E9903234253A030F007593F4 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9903233253A030F007593F4 /* ContentView.swift */; };
 		E9903236253A0315007593F4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E9903235253A0315007593F4 /* Assets.xcassets */; };
@@ -15,6 +16,18 @@
 		E990323E253A0315007593F4 /* Lumpsum.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E990323C253A0315007593F4 /* Lumpsum.xcdatamodeld */; };
 		E9903249253A0315007593F4 /* LumpsumTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9903248253A0315007593F4 /* LumpsumTests.swift */; };
 		E9903254253A0315007593F4 /* LumpsumUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9903253253A0315007593F4 /* LumpsumUITests.swift */; };
+		E9903268253A03BB007593F4 /* Expense+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9903264253A03BB007593F4 /* Expense+CoreDataClass.swift */; };
+		E9903269253A03BB007593F4 /* Expense+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9903265253A03BB007593F4 /* Expense+CoreDataProperties.swift */; };
+		E990326A253A03BB007593F4 /* Lump+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9903266253A03BB007593F4 /* Lump+CoreDataClass.swift */; };
+		E9903270253A03C8007593F4 /* Expense+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9903264253A03BB007593F4 /* Expense+CoreDataClass.swift */; };
+		E9903271253A03C8007593F4 /* Expense+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9903265253A03BB007593F4 /* Expense+CoreDataProperties.swift */; };
+		E9903272253A03C8007593F4 /* Lump+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9903266253A03BB007593F4 /* Lump+CoreDataClass.swift */; };
+		E9903277253A03CB007593F4 /* Expense+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9903264253A03BB007593F4 /* Expense+CoreDataClass.swift */; };
+		E9903278253A03CB007593F4 /* Expense+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9903265253A03BB007593F4 /* Expense+CoreDataProperties.swift */; };
+		E9903279253A03CB007593F4 /* Lump+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9903266253A03BB007593F4 /* Lump+CoreDataClass.swift */; };
+		E9903293253A0537007593F4 /* Lump+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9903292253A0537007593F4 /* Lump+CoreDataProperties.swift */; };
+		E9903294253A0537007593F4 /* Lump+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9903292253A0537007593F4 /* Lump+CoreDataProperties.swift */; };
+		E9903295253A0537007593F4 /* Lump+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9903292253A0537007593F4 /* Lump+CoreDataProperties.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +48,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		E97855C9253A1E6E000549AC /* ExpenseRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpenseRow.swift; sourceTree = "<group>"; };
 		E990322E253A030F007593F4 /* Lumpsum.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Lumpsum.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E9903231253A030F007593F4 /* LumpsumApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LumpsumApp.swift; sourceTree = "<group>"; };
 		E9903233253A030F007593F4 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -49,6 +63,10 @@
 		E990324F253A0315007593F4 /* LumpsumUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LumpsumUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E9903253253A0315007593F4 /* LumpsumUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LumpsumUITests.swift; sourceTree = "<group>"; };
 		E9903255253A0315007593F4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E9903264253A03BB007593F4 /* Expense+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Expense+CoreDataClass.swift"; sourceTree = "<group>"; };
+		E9903265253A03BB007593F4 /* Expense+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Expense+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		E9903266253A03BB007593F4 /* Lump+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Lump+CoreDataClass.swift"; sourceTree = "<group>"; };
+		E9903292253A0537007593F4 /* Lump+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Lump+CoreDataProperties.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,8 +117,10 @@
 		E9903230253A030F007593F4 /* Lumpsum */ = {
 			isa = PBXGroup;
 			children = (
+				E990327E253A03D8007593F4 /* CoreData Classes */,
 				E9903231253A030F007593F4 /* LumpsumApp.swift */,
 				E9903233253A030F007593F4 /* ContentView.swift */,
+				E97855C9253A1E6E000549AC /* ExpenseRow.swift */,
 				E9903235253A0315007593F4 /* Assets.xcassets */,
 				E990323A253A0315007593F4 /* Persistence.swift */,
 				E990323F253A0315007593F4 /* Info.plist */,
@@ -134,6 +154,17 @@
 				E9903255253A0315007593F4 /* Info.plist */,
 			);
 			path = LumpsumUITests;
+			sourceTree = "<group>";
+		};
+		E990327E253A03D8007593F4 /* CoreData Classes */ = {
+			isa = PBXGroup;
+			children = (
+				E9903264253A03BB007593F4 /* Expense+CoreDataClass.swift */,
+				E9903265253A03BB007593F4 /* Expense+CoreDataProperties.swift */,
+				E9903266253A03BB007593F4 /* Lump+CoreDataClass.swift */,
+				E9903292253A0537007593F4 /* Lump+CoreDataProperties.swift */,
+			);
+			path = "CoreData Classes";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -266,8 +297,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				E990323B253A0315007593F4 /* Persistence.swift in Sources */,
+				E9903293253A0537007593F4 /* Lump+CoreDataProperties.swift in Sources */,
 				E9903234253A030F007593F4 /* ContentView.swift in Sources */,
+				E9903269253A03BB007593F4 /* Expense+CoreDataProperties.swift in Sources */,
+				E9903268253A03BB007593F4 /* Expense+CoreDataClass.swift in Sources */,
+				E990326A253A03BB007593F4 /* Lump+CoreDataClass.swift in Sources */,
 				E9903232253A030F007593F4 /* LumpsumApp.swift in Sources */,
+				E97855CA253A1E6E000549AC /* ExpenseRow.swift in Sources */,
 				E990323E253A0315007593F4 /* Lumpsum.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -276,7 +312,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E9903272253A03C8007593F4 /* Lump+CoreDataClass.swift in Sources */,
+				E9903271253A03C8007593F4 /* Expense+CoreDataProperties.swift in Sources */,
 				E9903249253A0315007593F4 /* LumpsumTests.swift in Sources */,
+				E9903270253A03C8007593F4 /* Expense+CoreDataClass.swift in Sources */,
+				E9903294253A0537007593F4 /* Lump+CoreDataProperties.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -284,7 +324,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E9903279253A03CB007593F4 /* Lump+CoreDataClass.swift in Sources */,
+				E9903278253A03CB007593F4 /* Expense+CoreDataProperties.swift in Sources */,
 				E9903254253A0315007593F4 /* LumpsumUITests.swift in Sources */,
+				E9903277253A03CB007593F4 /* Expense+CoreDataClass.swift in Sources */,
+				E9903295253A0537007593F4 /* Lump+CoreDataProperties.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

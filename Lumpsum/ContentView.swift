@@ -9,72 +9,113 @@ import SwiftUI
 import CoreData
 
 struct ContentView: View {
-    @Environment(\.managedObjectContext) private var viewContext
-
-    @FetchRequest(
-        sortDescriptors: [NSSortDescriptor(keyPath: \Item.timestamp, ascending: true)],
-        animation: .default)
-    private var items: FetchedResults<Item>
-
+    // MARK: -
+    @StateObject var lump: Lump = {
+        let moc = PersistenceController.shared.container.viewContext
+        
+        guard let lumps = try? moc.fetch(Lump.fetchRequest()) as? [Lump] else {
+            fatalError()
+        }
+        
+        if let lump = lumps.first {
+            return lump
+        } else {
+            let lump = Lump(context: moc)
+            try? moc.save()
+            return lump
+        }
+    }()
+    
+    @State var newExpenseTitle: String = ""
+    @State var newExpenseAmount: Int = 0
+    
+    // MARK: -
     var body: some View {
-        List {
-            ForEach(items) { item in
-                Text("Item at \(item.timestamp!, formatter: itemFormatter)")
+        VStack {
+            amountField
+                .frame(height: 90)
+            
+            List {
+                ForEach(lump.expenseArray, id: \.self) { expense in
+                    ExpenseRow(expense: expense)
+                }.onDelete(perform: deleteExpense(at:))
+                
+                expenseEnterRow
             }
-            .onDelete(perform: deleteItems)
+            
+            totalRow
+                .frame(height: 60)
         }
-        .toolbar {
-            #if os(iOS)
-            EditButton()
-            #endif
-
-            Button(action: addItem) {
-                Label("Add Item", systemImage: "plus")
+    }
+    
+    // MARK: -
+    var amountField: some View {
+        TextField("Enter Value!", value: $lump.amount, formatter: NumberFormatter()) { (bool) in
+            return
+        } onCommit: {
+            self.saveContext()
+        }
+    }
+    
+    var expenseEnterRow: some View {
+        HStack {
+            TextField("New Expense", text: $newExpenseTitle) { (bool) in
+                return
+            } onCommit: {
+                newExpenseHandler()
+            }
+            
+            TextField("", value: $newExpenseAmount, formatter: NumberFormatter()) { (bool) in
+                return
+            } onCommit: {
+                newExpenseHandler()
             }
         }
     }
-
-    private func addItem() {
-        withAnimation {
-            let newItem = Item(context: viewContext)
-            newItem.timestamp = Date()
-
-            do {
-                try viewContext.save()
-            } catch {
-                // Replace this implementation with code to handle the error appropriately.
-                // fatalError() causes the application to generate a crash log and terminate. You should not use this function in a shipping application, although it may be useful during development.
-                let nsError = error as NSError
-                fatalError("Unresolved error \(nsError), \(nsError.userInfo)")
-            }
+    
+    var totalRow: some View {
+        HStack {
+            Text("Remainder: ")
+            Text(String(calculateRemainder()))
         }
     }
-
-    private func deleteItems(offsets: IndexSet) {
-        withAnimation {
-            offsets.map { items[$0] }.forEach(viewContext.delete)
-
-            do {
-                try viewContext.save()
-            } catch {
-                // Replace this implementation with code to handle the error appropriately.
-                // fatalError() causes the application to generate a crash log and terminate. You should not use this function in a shipping application, although it may be useful during development.
-                let nsError = error as NSError
-                fatalError("Unresolved error \(nsError), \(nsError.userInfo)")
-            }
+    
+    // MARK: -
+    func saveContext() {
+        try? PersistenceController.shared.container.viewContext.save()
+    }
+    
+    func newExpenseHandler() {
+        if !newExpenseTitle.isEmpty && newExpenseAmount != 0 {
+            let newExpense = Expense(context: PersistenceController.shared.container.viewContext, title: newExpenseTitle, cost: newExpenseAmount)
+            
+            lump.addToExpenses(newExpense)
+            
+            saveContext()
         }
+    }
+    
+    func calculateRemainder() -> Int {
+        var total: Int = 0
+        
+        for expense in lump.expenseArray {
+            total += Int(expense.cost)
+        }
+        
+        let remainder = Int(lump.amount) - total
+        
+        return remainder
+    }
+    
+    func deleteExpense(at index: IndexSet) {
+        let expense = lump.expenseArray[index.first!]
+        lump.removeFromExpenses(expense)
+        saveContext()
     }
 }
 
-private let itemFormatter: DateFormatter = {
-    let formatter = DateFormatter()
-    formatter.dateStyle = .short
-    formatter.timeStyle = .medium
-    return formatter
-}()
-
-struct ContentView_Previews: PreviewProvider {
-    static var previews: some View {
-        ContentView().environment(\.managedObjectContext, PersistenceController.preview.container.viewContext)
-    }
-}
+//struct ContentView_Previews: PreviewProvider {
+//    static var previews: some View {
+//        ContentView().environment(\.managedObjectContext, PersistenceController.preview.container.viewContext)
+//    }
+//}
