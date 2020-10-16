@@ -17,6 +17,7 @@ struct ExpenseRow: View {
                 .padding(.trailing, 16)
             
             Text(String(expense.cost))
+                .frame(maxWidth: 60, alignment: .trailing)
         }
     }
 }

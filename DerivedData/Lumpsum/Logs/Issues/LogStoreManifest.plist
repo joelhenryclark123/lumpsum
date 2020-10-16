@@ -6,7 +6,7 @@
 	<integer>10</integer>
 	<key>logs</key>
 	<dict>
-		<key>D549F491-00F8-47A8-88F5-91179C82D566</key>
+		<key>AC9482B0-2370-4036-8480-46A1F140084B</key>
 		<dict>
 			<key>className</key>
 			<string>IDEActivityLogMajorGroupSection</string>
@@ -15,7 +15,7 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.target.product-type.application</string>
 			<key>fileName</key>
-			<string>D549F491-00F8-47A8-88F5-91179C82D566.xcactivitylog</string>
+			<string>AC9482B0-2370-4036-8480-46A1F140084B.xcactivitylog</string>
 			<key>hasPrimaryLog</key>
 			<true/>
 			<key>primaryObservable</key>
@@ -26,13 +26,13 @@
 			<key>signature</key>
 			<string>Lumpsum-bguqvnybpdixjrekgoqnsrgwqhbc</string>
 			<key>timeStartedRecording</key>
-			<real>624567310.90292394</real>
+			<real>624568091.36729598</real>
 			<key>timeStoppedRecording</key>
-			<real>624567313.10002005</real>
+			<real>624568093.17983603</real>
 			<key>title</key>
 			<string>Build target Lumpsum</string>
 			<key>uniqueIdentifier</key>
-			<string>D549F491-00F8-47A8-88F5-91179C82D566</string>
+			<string>AC9482B0-2370-4036-8480-46A1F140084B</string>
 		</dict>
 	</dict>
 	<key>preserveOldLogs</key>

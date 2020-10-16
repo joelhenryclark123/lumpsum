@@ -17,4 +17,14 @@ public class Lump: NSManagedObject {
             $0.timestamp < $1.timestamp
         }
     }
+    
+    public var remainder: Int {
+        return Int(self.amount) - totalCosts
+    }
+    
+    public var totalCosts: Int {
+        var total: Int = 0
+        expenseArray.forEach({ total += Int($0.cost) })
+        return total
+    }
 }

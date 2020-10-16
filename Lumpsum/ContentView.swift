@@ -51,7 +51,7 @@ struct ContentView: View {
     // MARK: -
     var amountField: some View {
         TextField("Enter Value!", value: $lump.amount, formatter: NumberFormatter()) { (bool) in
-            return
+            self.saveContext()
         } onCommit: {
             self.saveContext()
         }
@@ -83,7 +83,7 @@ struct ContentView: View {
     var totalRow: some View {
         HStack {
             Text("Remainder: ")
-            Text(String(calculateRemainder()))
+            Text(String(lump.remainder))
         }
     }
     
@@ -99,19 +99,10 @@ struct ContentView: View {
             lump.addToExpenses(newExpense)
             
             saveContext()
+            
+            newExpenseAmount = 0
+            newExpenseTitle = ""
         }
-    }
-    
-    func calculateRemainder() -> Int {
-        var total: Int = 0
-        
-        for expense in lump.expenseArray {
-            total += Int(expense.cost)
-        }
-        
-        let remainder = Int(lump.amount) - total
-        
-        return remainder
     }
     
     func deleteExpense(at index: IndexSet) {
