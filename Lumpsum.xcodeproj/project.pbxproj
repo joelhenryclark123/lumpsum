@@ -1,0 +1,606 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E9903232253A030F007593F4 /* LumpsumApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9903231253A030F007593F4 /* LumpsumApp.swift */; };
+		E9903234253A030F007593F4 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9903233253A030F007593F4 /* ContentView.swift */; };
+		E9903236253A0315007593F4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E9903235253A0315007593F4 /* Assets.xcassets */; };
+		E9903239253A0315007593F4 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E9903238253A0315007593F4 /* Preview Assets.xcassets */; };
+		E990323B253A0315007593F4 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = E990323A253A0315007593F4 /* Persistence.swift */; };
+		E990323E253A0315007593F4 /* Lumpsum.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E990323C253A0315007593F4 /* Lumpsum.xcdatamodeld */; };
+		E9903249253A0315007593F4 /* LumpsumTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9903248253A0315007593F4 /* LumpsumTests.swift */; };
+		E9903254253A0315007593F4 /* LumpsumUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9903253253A0315007593F4 /* LumpsumUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E9903245253A0315007593F4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E9903226253A030F007593F4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E990322D253A030F007593F4;
+			remoteInfo = Lumpsum;
+		};
+		E9903250253A0315007593F4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E9903226253A030F007593F4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E990322D253A030F007593F4;
+			remoteInfo = Lumpsum;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E990322E253A030F007593F4 /* Lumpsum.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Lumpsum.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E9903231253A030F007593F4 /* LumpsumApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LumpsumApp.swift; sourceTree = "<group>"; };
+		E9903233253A030F007593F4 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		E9903235253A0315007593F4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E9903238253A0315007593F4 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		E990323A253A0315007593F4 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
+		E990323D253A0315007593F4 /* Lumpsum.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Lumpsum.xcdatamodel; sourceTree = "<group>"; };
+		E990323F253A0315007593F4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E9903244253A0315007593F4 /* LumpsumTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LumpsumTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E9903248253A0315007593F4 /* LumpsumTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LumpsumTests.swift; sourceTree = "<group>"; };
+		E990324A253A0315007593F4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E990324F253A0315007593F4 /* LumpsumUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LumpsumUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E9903253253A0315007593F4 /* LumpsumUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LumpsumUITests.swift; sourceTree = "<group>"; };
+		E9903255253A0315007593F4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E990322B253A030F007593F4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E9903241253A0315007593F4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E990324C253A0315007593F4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E9903225253A030F007593F4 = {
+			isa = PBXGroup;
+			children = (
+				E9903230253A030F007593F4 /* Lumpsum */,
+				E9903247253A0315007593F4 /* LumpsumTests */,
+				E9903252253A0315007593F4 /* LumpsumUITests */,
+				E990322F253A030F007593F4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E990322F253A030F007593F4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E990322E253A030F007593F4 /* Lumpsum.app */,
+				E9903244253A0315007593F4 /* LumpsumTests.xctest */,
+				E990324F253A0315007593F4 /* LumpsumUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E9903230253A030F007593F4 /* Lumpsum */ = {
+			isa = PBXGroup;
+			children = (
+				E9903231253A030F007593F4 /* LumpsumApp.swift */,
+				E9903233253A030F007593F4 /* ContentView.swift */,
+				E9903235253A0315007593F4 /* Assets.xcassets */,
+				E990323A253A0315007593F4 /* Persistence.swift */,
+				E990323F253A0315007593F4 /* Info.plist */,
+				E990323C253A0315007593F4 /* Lumpsum.xcdatamodeld */,
+				E9903237253A0315007593F4 /* Preview Content */,
+			);
+			path = Lumpsum;
+			sourceTree = "<group>";
+		};
+		E9903237253A0315007593F4 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				E9903238253A0315007593F4 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		E9903247253A0315007593F4 /* LumpsumTests */ = {
+			isa = PBXGroup;
+			children = (
+				E9903248253A0315007593F4 /* LumpsumTests.swift */,
+				E990324A253A0315007593F4 /* Info.plist */,
+			);
+			path = LumpsumTests;
+			sourceTree = "<group>";
+		};
+		E9903252253A0315007593F4 /* LumpsumUITests */ = {
+			isa = PBXGroup;
+			children = (
+				E9903253253A0315007593F4 /* LumpsumUITests.swift */,
+				E9903255253A0315007593F4 /* Info.plist */,
+			);
+			path = LumpsumUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E990322D253A030F007593F4 /* Lumpsum */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E9903258253A0315007593F4 /* Build configuration list for PBXNativeTarget "Lumpsum" */;
+			buildPhases = (
+				E990322A253A030F007593F4 /* Sources */,
+				E990322B253A030F007593F4 /* Frameworks */,
+				E990322C253A030F007593F4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Lumpsum;
+			productName = Lumpsum;
+			productReference = E990322E253A030F007593F4 /* Lumpsum.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E9903243253A0315007593F4 /* LumpsumTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E990325B253A0315007593F4 /* Build configuration list for PBXNativeTarget "LumpsumTests" */;
+			buildPhases = (
+				E9903240253A0315007593F4 /* Sources */,
+				E9903241253A0315007593F4 /* Frameworks */,
+				E9903242253A0315007593F4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E9903246253A0315007593F4 /* PBXTargetDependency */,
+			);
+			name = LumpsumTests;
+			productName = LumpsumTests;
+			productReference = E9903244253A0315007593F4 /* LumpsumTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E990324E253A0315007593F4 /* LumpsumUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E990325E253A0315007593F4 /* Build configuration list for PBXNativeTarget "LumpsumUITests" */;
+			buildPhases = (
+				E990324B253A0315007593F4 /* Sources */,
+				E990324C253A0315007593F4 /* Frameworks */,
+				E990324D253A0315007593F4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E9903251253A0315007593F4 /* PBXTargetDependency */,
+			);
+			name = LumpsumUITests;
+			productName = LumpsumUITests;
+			productReference = E990324F253A0315007593F4 /* LumpsumUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E9903226253A030F007593F4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1200;
+				LastUpgradeCheck = 1200;
+				TargetAttributes = {
+					E990322D253A030F007593F4 = {
+						CreatedOnToolsVersion = 12.0;
+					};
+					E9903243253A0315007593F4 = {
+						CreatedOnToolsVersion = 12.0;
+						TestTargetID = E990322D253A030F007593F4;
+					};
+					E990324E253A0315007593F4 = {
+						CreatedOnToolsVersion = 12.0;
+						TestTargetID = E990322D253A030F007593F4;
+					};
+				};
+			};
+			buildConfigurationList = E9903229253A030F007593F4 /* Build configuration list for PBXProject "Lumpsum" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E9903225253A030F007593F4;
+			productRefGroup = E990322F253A030F007593F4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E990322D253A030F007593F4 /* Lumpsum */,
+				E9903243253A0315007593F4 /* LumpsumTests */,
+				E990324E253A0315007593F4 /* LumpsumUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E990322C253A030F007593F4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E9903239253A0315007593F4 /* Preview Assets.xcassets in Resources */,
+				E9903236253A0315007593F4 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E9903242253A0315007593F4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E990324D253A0315007593F4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E990322A253A030F007593F4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E990323B253A0315007593F4 /* Persistence.swift in Sources */,
+				E9903234253A030F007593F4 /* ContentView.swift in Sources */,
+				E9903232253A030F007593F4 /* LumpsumApp.swift in Sources */,
+				E990323E253A0315007593F4 /* Lumpsum.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E9903240253A0315007593F4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E9903249253A0315007593F4 /* LumpsumTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E990324B253A0315007593F4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E9903254253A0315007593F4 /* LumpsumUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E9903246253A0315007593F4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E990322D253A030F007593F4 /* Lumpsum */;
+			targetProxy = E9903245253A0315007593F4 /* PBXContainerItemProxy */;
+		};
+		E9903251253A0315007593F4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E990322D253A030F007593F4 /* Lumpsum */;
+			targetProxy = E9903250253A0315007593F4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		E9903256253A0315007593F4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E9903257253A0315007593F4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E9903259253A0315007593F4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Lumpsum/Preview Content\"";
+				DEVELOPMENT_TEAM = FYM4933UYP;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = Lumpsum/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = JHCWeb.Lumpsum;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E990325A253A0315007593F4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Lumpsum/Preview Content\"";
+				DEVELOPMENT_TEAM = FYM4933UYP;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = Lumpsum/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = JHCWeb.Lumpsum;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		E990325C253A0315007593F4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = FYM4933UYP;
+				INFOPLIST_FILE = LumpsumTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = JHCWeb.LumpsumTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Lumpsum.app/Lumpsum";
+			};
+			name = Debug;
+		};
+		E990325D253A0315007593F4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = FYM4933UYP;
+				INFOPLIST_FILE = LumpsumTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = JHCWeb.LumpsumTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Lumpsum.app/Lumpsum";
+			};
+			name = Release;
+		};
+		E990325F253A0315007593F4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = FYM4933UYP;
+				INFOPLIST_FILE = LumpsumUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = JHCWeb.LumpsumUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Lumpsum;
+			};
+			name = Debug;
+		};
+		E9903260253A0315007593F4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = FYM4933UYP;
+				INFOPLIST_FILE = LumpsumUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = JHCWeb.LumpsumUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Lumpsum;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E9903229253A030F007593F4 /* Build configuration list for PBXProject "Lumpsum" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E9903256253A0315007593F4 /* Debug */,
+				E9903257253A0315007593F4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E9903258253A0315007593F4 /* Build configuration list for PBXNativeTarget "Lumpsum" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E9903259253A0315007593F4 /* Debug */,
+				E990325A253A0315007593F4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E990325B253A0315007593F4 /* Build configuration list for PBXNativeTarget "LumpsumTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E990325C253A0315007593F4 /* Debug */,
+				E990325D253A0315007593F4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E990325E253A0315007593F4 /* Build configuration list for PBXNativeTarget "LumpsumUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E990325F253A0315007593F4 /* Debug */,
+				E9903260253A0315007593F4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		E990323C253A0315007593F4 /* Lumpsum.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				E990323D253A0315007593F4 /* Lumpsum.xcdatamodel */,
+			);
+			currentVersion = E990323D253A0315007593F4 /* Lumpsum.xcdatamodel */;
+			path = Lumpsum.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = E9903226253A030F007593F4 /* Project object */;
+}
