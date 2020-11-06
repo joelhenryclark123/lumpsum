@@ -1,5 +1,5 @@
 # Lumpsum
-I built this app to budget my padnemic unemployment insurance check, which came retoractively in a lump sum.
+I built this app to budget my padnemic unemployment insurance check, which came retroactively in a lump sum.
 
 ## Use
 1. Enter your lump sum at the top
